@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 3000;                     // http服务
 
 // 核心配置
 const SETTINGS = {
-    ['UUID']: 69823e3d-cc65-4c73-9533-1430e7a5d918,              
+    ['UUID']: UUID,              
     ['LOG_LEVEL']: 'none',       // 日志级别,调试使用,none,info,warn,error
     ['BUFFER_SIZE']: '2048',     // 增加缓冲区大小
     ['XPATH']: `%2F${XPATH}`,    // xhttp路径 
